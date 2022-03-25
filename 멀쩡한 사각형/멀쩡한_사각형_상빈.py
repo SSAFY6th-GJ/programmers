@@ -1,3 +1,11 @@
+
+def solution(w, h):
+    i = min(w, h)           # i == 최대공약수
+    while w%i or h%i:
+        i -= 1
+    print(i)
+    return w*h - w - h + i  # 전체칸수 - 가로 - 세로 + 최대공약수
+
 # tc 3개 시간초과
 # def solution(w, h):
 #     answer = 0
