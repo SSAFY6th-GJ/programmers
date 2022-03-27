@@ -18,31 +18,25 @@ def solution(numbers, hand):
             answer += 'R'
             right = idx[i]
         else:
-            if i == 0:
+            dis_l = abs(left[0]-idx[i][0]) + abs(left[1]-idx[i][1])
+            dis_r = abs(right[0]-idx[i][0]) + abs(right[1]-idx[i][1])
+            if dis_l > dis_r:
+                answer += 'R'
+                right = idx[i]
+            elif dis_l < dis_r:
+                answer += 'L'
+                left = idx[i]
+            else:
                 if hand == "right":
                     answer += 'R'
-                    right = idx[0]
-                else:
-                    answer += 'L'
-                    left = idx[0]
-            else:
-                dis_l = abs(left[0]-idx[i][0]) + abs(left[1]-idx[i][1])
-                dis_r = abs(right[0]-idx[i][0]) + abs(right[1]-idx[i][1])
-                if dis_l > dis_r:
-                    answer += 'R'
                     right = idx[i]
-                elif dis_l < dis_r:
+                else:
                     answer += 'L'
                     left = idx[i]
-                else:
-                    if hand == "right":
-                        answer += 'R'
-                        right = idx[i]
-                    else:
-                        answer += 'L'
-                        left = idx[i]
     print(answer)
     return answer
+
+# solution([7, 0, 8, 2, 8, 3, 1, 5, 7, 6, 2],"left")
 
 '''
 numbers 들을 모두 키패드 위치 배열로 받아서 
