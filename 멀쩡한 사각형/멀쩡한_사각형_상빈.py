@@ -6,6 +6,7 @@ def solution(w, h):
     print(i)
     return w*h - w - h + i  # 전체칸수 - 가로 - 세로 + 최대공약수
 
+
 # tc 3개 시간초과
 # def solution(w, h):
 #     answer = 0
