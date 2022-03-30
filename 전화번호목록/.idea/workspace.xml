@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="802d2d2a-eba6-421a-9571-60bc3797fd4e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../기능개발/기능개발_주용.py" beforeDir="false" afterPath="$PROJECT_DIR$/../기능개발/기능개발_주용.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../키패드 누르기/키패드누르기_주용.py" beforeDir="false" afterPath="$PROJECT_DIR$/../키패드 누르기/키패드누르기_주용.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/전화번호목록_성빈.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +18,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="276cWUk7EbP9StnG7JOTqr83Tl4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -40,5 +42,16 @@
       <updated>1648644009200</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
