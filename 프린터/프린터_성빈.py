@@ -18,4 +18,5 @@ def solution(priorities, location):
                 priorities.pop(0) # 맨 앞에 있는게 가장 중요한 문서니까 출력
                 location -= 1 # 맨 앞에 있던게 출력되서 location -1
                 answer += 1
+
     return answer
