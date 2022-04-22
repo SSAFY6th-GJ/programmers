@@ -19,7 +19,7 @@
 | 4/13 | [1406](https://github.com/SSAFY6th-GJ/BOJ/tree/main/1406), [18111](https://github.com/SSAFY6th-GJ/BOJ/tree/main/18111), [2579](https://github.com/SSAFY6th-GJ/BOJ/tree/main/2579), [2512](https://github.com/SSAFY6th-GJ/BOJ/tree/main/2512) |
 | 4/17 | [프린터](https://github.com/SSAFY6th-GJ/programmers/tree/main/프린터), [조이스틱](https://github.com/SSAFY6th-GJ/programmers/tree/main/조이스틱), [방금그곡](https://github.com/SSAFY6th-GJ/programmers/tree/main/방금그곡), [카펫](https://github.com/SSAFY6th-GJ/programmers/tree/main/카펫) |
 | 4/20 | [11403](https://github.com/SSAFY6th-GJ/BOJ/tree/main/11403), [1107](https://github.com/SSAFY6th-GJ/BOJ/tree/main/1107), [16954](https://github.com/SSAFY6th-GJ/BOJ/tree/main/16954), [1735](https://github.com/SSAFY6th-GJ/BOJ/tree/main/1735) |
-| 4/24 | 구명보트, 메뉴리뉴얼                                         |
+| 4/24 | 구명보트, 메뉴리뉴얼, 폰켓몬                                 |
 
 ## 🚩진행방식
 
