@@ -9,7 +9,7 @@ def solution(people, limit):
         answer += 1
         if people[first] + people[last] <= limit:
             first += 1
-        last -= 1
+            last -= 1
 
     return answer
 
