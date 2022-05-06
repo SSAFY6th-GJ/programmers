@@ -13,15 +13,16 @@ def solution(orders, course):
 		for i in range(s, len(order)):
 			menu += order[i]
 			combi(menu,l+1, i+1)
-			# menu = menu[0:-1]
+			menu = menu[0:-1]
 
 	for r in course:
 		res = {}
 		for order in orders:
 			order=sorted(order)
 			combi('',0, 0)
+		print(res)
 		sorted_res = sorted(res.items(), key= lambda x:x[1], reverse= True)
-		# print(sorted_res)
+		print(sorted_res)
 		if sorted_res and sorted_res[0][1] >= 2:
 			cnt = sorted_res[0][1]
 		else:
@@ -38,8 +39,8 @@ def solution(orders, course):
 
 
 
-orders = ["XYZ", "XWY", "WXA"]                
-course = [2,3,4]
+orders = ["ABCFG", "AC", "CDE", "ACDE", "BCFG", "ACDEH"]               
+course = [3,4]
 print(solution(orders, course))
 
 
