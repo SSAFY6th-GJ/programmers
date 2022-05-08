@@ -56,7 +56,7 @@ def bfs(p):
                         visited[new_i][new_j] = 1
                         distance[new_i][new_i] = distance[i][j] + 1
                     
-                    if p[new_i][new_j] == 'P' and distance[new_i][new_j] <= 1:
+                    if p[new_i][new_j] == 'P' and distance[i][j] <= 1:
                         return 0
     return 1
 
