@@ -24,6 +24,7 @@
 | 4/30 | [1541,](https://github.com/SSAFY6th-GJ/BOJ/tree/main/1541) [3085](https://github.com/SSAFY6th-GJ/BOJ/tree/main/3085), [2212](https://github.com/SSAFY6th-GJ/BOJ/tree/main/2212), [16234](https://github.com/SSAFY6th-GJ/BOJ/tree/main/16234) |
 | 5/4  | [1002](https://github.com/SSAFY6th-GJ/BOJ/tree/main/1002), [9095](https://github.com/SSAFY6th-GJ/BOJ/tree/main/9095), [11726](https://www.acmicpc.net/problem/11726), [14891](https://github.com/SSAFY6th-GJ/BOJ/tree/main/14891) |
 | 5/8  | [체육복](https://github.com/SSAFY6th-GJ/programmers/tree/main/%EC%B2%B4%EC%9C%A1%EB%B3%B5), 모의고사, [실패율](https://github.com/SSAFY6th-GJ/programmers/tree/main/%EC%8B%A4%ED%8C%A8%EC%9C%A8), 크레인인형뽑기 |
+| 5/22 | [신규아이디추천](https://github.com/SSAFY6th-GJ/programmers/tree/main/%EC%8B%A4%ED%8C%A8%EC%9C%A8) |
 ## 🚩진행방식
 
 * 늦어도 목요일, 월요일 오전까지 문제를 뽑아서 폴더 생성한다.
