@@ -11,7 +11,7 @@ def solution(answers):
 			res_1 += 1
 		if answers[i] == my_answer_2[i%8]:
 			res_2 += 1
-		if answers[i] == my_answer_2[i%10]:
+		if answers[i] == my_answer_3[i%10]:
 			res_3 += 1
 	max_res = max(res_1, res_2, res_3)
 	if res_1 == max_res:
