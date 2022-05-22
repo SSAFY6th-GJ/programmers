@@ -12,11 +12,13 @@ def solution(N, stages):
 		if challengers == 0:
 			fail_rate[i] = 0
 		else:
-			fail_rate[i] = uncomplete / challengers
-		print(uncomplete,challengers)
+			fail_rate[i] = (uncomplete / challengers,i+1)
 	print(fail_rate)
+	fail_rate.sort(key=lambda x:(-x[0],x[1]))
+	for j in fail_rate:
+		answer.append(j[1])
 	return answer
 
 N = 5
 stages = [2, 1, 2, 6, 2, 4, 3, 3]
-solution(N,stages)
+print(solution(N,stages))
