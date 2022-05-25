@@ -10,7 +10,7 @@ def solution(N, stages):
 				if stage == i+1:
 					uncomplete += 1
 		if challengers == 0:
-			fail_rate[i] = 0
+			fail_rate[i] = (0, i+1)
 		else:
 			fail_rate[i] = (uncomplete / challengers,i+1)
 	print(fail_rate)
